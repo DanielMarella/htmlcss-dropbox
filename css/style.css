@@ -4,3 +4,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.navbar{
+    height: 10vh;
+    border: 5px solid blue;
+}
+
+.jumbo{
+    height: 70vh;
+    border: 5px solid red;
+}
+
+.business-selection{
+    height: 30vh;
+    border: 5px solid cornflowerblue ;
+}
+
+.business-plan{
+    height: 90vh;
+    border: 5px solid violet;
+}
+
+.business-plus{
+    height: 30vh;
+    border: 5px solid violet;
+}
+
+.find-partner{
+    height: 80vh;
+    border: 5px solid cyan;
+}
+
+.information{
+    height: 100vh;
+    border: 5px solid lime;
+}
+
+.information-plus{
+    height: 30vh;
+    border: 5px solid lime;
+}
+
+.adv-banner{
+    height: 50vh;
+    border: 5px solid orange;
+}
+
+.offer{
+    height: 30vh;
+    border: 5px solid orangered;
+}
+
+.faq{
+    height: 50vh;
+    border: 5px solid brown;
+}
+
+
+footer{
+    height: 40vh;
+    background-color: black;
+}
