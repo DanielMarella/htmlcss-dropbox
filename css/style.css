@@ -5,11 +5,61 @@
     box-sizing: border-box;
 }
 
+/* GENERAL CLASS */
+li{
+    list-style-type: none;
+}
+
+/* REUSABLE CLASS */
+.flex{
+    display: flex;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border: 2px solid black;
+}
+
+/* ---------------------------------------------------------------------- */
+
+.navigation{
+    width: 100%;
+}
 
 .navbar{
     height: 10vh;
     border: 5px solid blue;
 }
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border: 2px solid black;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border: 2px solid black;
+}
+
+.r-nav{
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border: 2px solid black;
+}
+
+
 
 .jumbo{
     height: 70vh;
