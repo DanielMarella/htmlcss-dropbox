@@ -9,6 +9,8 @@
 li{
     list-style-type: none;
 }
+/* --------------------------------------- */
+
 
 /* REUSABLE CLASS */
 .flex{
@@ -98,6 +100,9 @@ li{
 }
 
 
+main{
+    margin: 0 300px;
+}
 
 
 .business-selection{
@@ -108,6 +113,18 @@ li{
 .business-plan{
     height: 90vh;
     border: 5px solid violet;
+    gap: 50px;
+}
+
+.plan{
+    width: 100%;
+    border: 5px solid blue;
+}
+
+.head-column{
+    width: 100%;
+    height: 5vh;
+    border: 5px solid red;
 }
 
 .business-plus{
