@@ -88,13 +88,13 @@ li{
     height: 50vh;
 }
 
-.paragrafino{
-    width: 100%;
+.column-30{
+    width: 30%;
     border: 5px solid blue;
 }
 
-.first-img{
-    width: 100%;
+.column-70{
+    width: 70%;
     border: 5px solid blue;
     
 }
