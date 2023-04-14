@@ -43,7 +43,9 @@
         <section class="jumbotron">
             <div class="jumbo">
                 <!-- TITOLO GRANDE  -->
-                <div class="titolo flex"><h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1></div>
+                <div class="main-title flex">
+                    <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                </div>
                 <div class="box flex">
                     <!-- SINISTRA TESTO + bottone + freccia in giu -->
                     <div class="column-30 flex-column">
@@ -65,12 +67,16 @@
 
 
 
-    <!-- MAIN DIVISO DA 9 SEZIONI -->
         <!-- TITOLO GRANDE CON DUE BOTTONI RADIO -->
+    <div class="business-container">
         <section class="business-selection">
-            <div class="titolo flex">TITOLO</div>
-            <input type="radio"> Fatturazione mensile
-            <input type="radio"> Fatturazione annuale
+            <div class="minor-title">
+                <h2>Trova il piano business che fa per te</h2>
+            </div>
+            <div class="radio">
+                <input type="radio" name="Plan" value="30" required > Fatturazione mensile
+                <input type="radio"  name="Plan" value="365" required >Fatturazione annuale
+            </div>
         </section>
 
         <!-- CONTENITORE CON TRE COLONNE SEPARATE AL SUO INTERNO -->
@@ -94,7 +100,7 @@
             <div class="head-column"></div>
             </div>
         </section>
-        
+    </div>    
         <!-- CONTENITORE CON IMMAGINE A SINISTRA E TESTO A DESTRA -->
         <section class="find-partner flex">
             <div class="column-70"></div>
