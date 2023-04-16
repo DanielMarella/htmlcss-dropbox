@@ -7,7 +7,7 @@
 
 /* GENERAL CLASS */
 section{
-    margin: 50px 0;
+    margin: 0 0 50px 0;
 }
 
 ul{
@@ -15,11 +15,15 @@ ul{
 }
 
 li{
-    margin-bottom: 20px;
+
+}
+
+a{
+    font-size: 1.5rem;
 }
 
 p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 hr{
@@ -29,6 +33,10 @@ hr{
 
 h3{
     font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
 }
 /* --------------------------------------- */
 
@@ -49,7 +57,6 @@ h3{
 }
 
 .button-start{
-    margin-bottom: 20px;
     padding: 0 40px;
     height: 50px;
     color: white;
@@ -61,12 +68,16 @@ h3{
 .margin-30{
     margin: 30px 0 0 30px;
 }
+
+.m-bottom{
+    margin-bottom: 100px;
+}
 /* ---------------------------------------------------------------------- */
 
 /* --------------------------Header-------------------------------------- */
 
 header{
-    height: 10vh;
+    height: 8vh;
 }
 
 .navbar{
@@ -137,7 +148,7 @@ header{
 /* ---------------------------------------------------------------------- */
 
 
-/* ------------------------Business-selection---------------------------- */
+/* ------------------------Business-selection + business plan---------------------------- */
 
 .business-container{
     margin: 20px 400px;
@@ -171,10 +182,6 @@ header{
     width: 100%;
     height: 5vh;
     border: 1px solid grey;
-}
-
-.selling-offer{
-
 }
 
 .professional-plan{
@@ -227,7 +234,7 @@ header{
 .card{
     width: calc(100% / 3);
     height: calc(100% / 2);
-    padding-bottom: 20px;
+    padding: 0 40px 20px 0;
 }
 
 .row-50{
@@ -250,8 +257,8 @@ header{
 /* ---------------------------------------------------------------------- */
 
 .information-plus{
+    margin: 20px 400px;
     height: 30vh;
-    border: 5px solid lime;
 }
 
 .adv-banner{
