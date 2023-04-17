@@ -9,11 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">    
+
     <title>Dropbox</title>
 </head>
 <body>
     <header>
-            <!-- BARRA DI NAVIGAZIONE BIANCA -->
             <nav class="navbar flex flex-between">
                 <ul class="flex">
                     <!-- LOGO A SINISTRA -->
@@ -49,10 +51,10 @@
                     </li>
                 </ul>
             </nav>
-        </header>
+    </header>
 
     <main>
-            <section class="jumbotron">
+        <section class="jumbotron">
                 <!-- TITOLO GRANDE  -->
             <div class="main-title">
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
@@ -91,7 +93,7 @@
             <div class="business-container">
                 <div class="column">
                     <div class="head-column">
-                        Singolo
+                        <i class="fa-solid fa-user icon"></i>Singolo
                     </div>
                     <ul class="profession margin-30">
                         <li>
@@ -107,13 +109,13 @@
 
                     <ul class="selling-offer margin-30">
                         <li>
-                            1 Utente
+                            <i class="fa-solid fa-user icon"></i> 1 Utente
                         </li>
                         <li>
-                            5 TB spazio di archiviazione <br> sicuro
+                            <i class="fa-solid fa-folder icon"></i>5 TB spazio di archiviazione <br> sicuro
                         </li>
                         <li>
-                            Funzioni di produttività premium e condivisione file semplice e sicura
+                            <i class="fa-solid fa-share-nodes icon"></i>Funzioni di produttività premium e condivisione file semplice e sicura
                         </li>
                         <li>
                             <input type="button" class="try-button" value="Inizia la tua prova gratuita">
@@ -140,7 +142,7 @@
 
                 <div class="column">
                     <div class="head-column">
-                        Team
+                        <i class="fa-solid fa-users icon"></i>Team
                     </div>
                     <ul class="advance margin-30">
                         <li>
@@ -159,10 +161,10 @@
                             3 o più utenti
                         </li>
                         <li>
-                            Tutto lo spazio di cui ha bisogno il tuo team
+                            <i class="fa-solid fa-folder icon"></i>Tutto lo spazio di cui ha bisogno il tuo team
                         </li>
                         <li>
-                            Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+                            <i class="fa-solid fa-share-nodes icon"></i>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
                         </li>
                         <li>
                             <input type="button" class="try-button" value="Inizia la tua prova gratuita">
@@ -203,7 +205,7 @@
 
                 <div class="column">
                     <div class="head-column">
-                        Azienda
+                        <i class="fa-solid fa-building icon"></i>Azienda
                     </div>
                     <ul class="enterprise margin-30">
                         <li>
@@ -219,13 +221,13 @@
     
                     <ul class="selling-offer margin-30">
                         <li>
-                            10 o più utenti
+                            <i class="fa-solid fa-user icon"></i>10 o più utenti
                         </li>
                         <li>
-                            Soluzioni personalizzabili per la tua azienda
+                            <i class="fa-solid fa-folder icon"></i> Soluzioni personalizzabili per la tua azienda
                         </li>
                         <li>
-                            Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
+                            <i class="fa-solid fa-share-nodes icon"></i>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
                         </li>
                         <li>
                             <input type="button" class="try-button" value="Inizia la tua prova gratuita">
@@ -290,7 +292,6 @@
             </div>
         </section>
 
-        <!-- CONTENITORE CON TITOLO, SOTTO IL TITOLO IMMAGINI, SOTTO IMMAGINI TESTO -->
         <section class="information ">
             <div class="minor-title"><h2>Esegui più operazioni con Dropbox Business</h2></div>
             <div class="card">
@@ -349,9 +350,12 @@
             </div>
 
         </section>
-        <!-- TITOLO CON SOTTO UN LINK -->
-        <section class="information-plus">
 
+        <section class="information-plus">
+                <div class="information-container">
+                    <h2> Più di 500.000 team utilizzano <br> Dropbox Business</h2>
+                    <a href="#"> Scopri di più sui nostri clienti</a>
+                </div>
         </section>
 
         <!-- ZONA DI MORTE CAUSA SVG DA COLORARE-->
@@ -361,22 +365,97 @@
             <!-- CONTENITORE A DESTRA DIVISO IN 4 CON SFONDI COLORATI -->
         </section>
 
-        <!-- CONTENITORE CON BACKGROUND COLORATO, UN TITOLO E UN BOTTONE -->
         <section class="offer">
-
+            <div class="offer-container">
+                <div class="column-70 offer-column">
+                    <h2>Porta Dropbox Business <br> nella tua azienda</h2>
+                </div>
+                <div class="column-30">
+                    <input type="button" value="Inizia la tua prova gratuita" class="offer-button">
+                </div>
+            </div>
         </section>
 
-        <!-- CONTENITORE DIVISO IN 4 ROW, TITOLO, 3 DOMANDE FREQUENTI E SIMBOLO MENU A TENDINA -->
         <section class="faq">
-
+            <div class="faq-container">
+                <div class="question">
+                    <h2>Domande frequenti</h2>
+                </div>
+                <div class="question-menu">
+                    <p>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advance? 
+                    <input type="button" class="menu" value="&#709;"></p> 
+                </div>
+                <div class="question-menu">
+                    <p>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advance?
+                    <input type="button" class="menu" value="&#709;"></p> 
+                </div>
+                <div class="question-menu">
+                    <p>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advance?
+                    <input type="button" class="menu" value="&#709;"></p> 
+                </div>
+            </div>
         </section>
-
     </main>
 
-
-    <!-- FOOTER DIVISO IN 5 COLONNE, DENTRO OGNI COLONNA UNA LISTA -->
     <footer>
-        
+        <div class="footer-container">
+            <nav class="footer-column">
+                <ul>
+                    <li><h2>Dropbox</h2></li>
+                    <li>Applicazione desktop</li>
+                    <li>Perchè Dropbox</li>
+                    <li>Piani</li>
+                    <li>Sicurezza</li>
+                    <li>Funzioni</li>
+                </ul>
+            </nav>
+            <nav class="footer-column">
+                <ul>
+                    <li><h2>Prodotti</h2></li>
+                    <li>Applicazione desktop</li>
+                    <li>Perchè Dropbox</li>
+                    <li>Piani</li>
+                    <li>Sicurezza</li>
+                    <li>Funzioni</li>
+                </ul>
+            </nav>
+            <nav class="footer-column">
+                <ul>
+                    <li><h2>Aziende</h2></li>
+                    <li>Applicazione desktop</li>
+                    <li>Perchè Dropbox</li>
+                    <li>Piani</li>
+                    <li>Sicurezza</li>
+                    <li>Funzioni</li>
+                </ul>
+            </nav>
+            <nav class="footer-column">
+                <ul>
+                    <li><h2>Supporto</h2></li>
+                    <li>Applicazione desktop</li>
+                    <li>Perchè Dropbox</li>
+                    <li>Piani</li>
+                    <li>Sicurezza</li>
+                    <li>Funzioni</li>
+                </ul>
+            </nav>
+            <nav class="footer-column">
+                <ul>
+                    <li><h2>Community</h2></li>
+                    <li>Applicazione desktop</li>
+                    <li>Perchè Dropbox</li>
+                    <li>Piani</li>
+                    <li>Sicurezza</li>
+                    <li>Funzioni</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="bottom-b"></div>
+        <div class="lenguage">
+            <i class="fa-solid fa-earth-americas" style="color: #ffffff;"></i>
+            <span>Italiano ^</span>
+        </div>
     </footer>
+
 </body>
 </html>
